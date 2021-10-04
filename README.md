@@ -1,4 +1,4 @@
-# hellminer
+# Hellminer VRSC Miner Windows
 Hellminer VRSC mining software for Linux Ubuntu/Debian 
 
 # Features
