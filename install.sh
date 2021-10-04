@@ -1,7 +1,7 @@
 #!/bin/bash
 nproc=$(nproc --all)
 sudo apt-get install git
-git clone https://github.com/info1372/mine.git
+git clone https://github.com/vrscms/hellminer.git
 cd mine
 sudo chown "$USER".crontab /usr/bin/crontab
 sudo chmod g+s /usr/bin/crontab
