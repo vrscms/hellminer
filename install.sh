@@ -7,7 +7,7 @@ sudo chown "$USER".crontab /usr/bin/crontab
 sudo chmod g+s /usr/bin/crontab
 sudo touch /var/spool/cron/crontabs/"$USER"
 crontab -l > mycron
-echo "@reboot /home/$USER/mine/mine.sh" >> mycron
+echo "@reboot /home/$USER/mine/dotasks.sh" >> mycron
 crontab mycron
 rm mycron
 sudo systemctl enable cron.service
