@@ -15,7 +15,11 @@ git clone https://github.com/vrscms/hellminer.git && chmod -R 777 hellminer && c
 ```
 # Config
 
-Edit config with nano change wallet and worker to your own worker.
+Edit mine.sh with nano and add your wallet's address and your worker ID.
+
+```console
+nano mine.sh
+```
 
 # Start up 
 
