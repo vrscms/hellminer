@@ -8,13 +8,15 @@ One of the problems with running hellminer on a Linux server is that once the SS
 
 # Install
 
-sudo apt-get install git
+Clone hellminer from this repo in a new command terminal enter the following command.
 
-## One line command
-
+```console
 git clone https://github.com/vrscms/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
+```
+# Config
 
-##
+Edit config with nano change wallet and worker to your own worker.
 
-git clone https://github.com/vrscms/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
+# Start up 
 
+When installing this version of hellminer changes are made to crontab that lets hellminer start once the system starts.
