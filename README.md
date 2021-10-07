@@ -1,10 +1,10 @@
 # Hellminer VRSC Miner Linux Headless
-Hellminer VRSC mining software for Linux Ubuntu/Debian 
+Hellminer VRSC mining software for Linux Ubuntu/Debian headless servers
 
 # Features
 
 This version of Hellminer is for Linux and has been modified to work over SSH with headless servers.
-One of the problems with running hellminer on a Linux server is that once the SSH session ends the mining process with stop to this version of hellminer uses screen to keep the mining process running even after the SSH session is disconnected.
+One of the problems with running hellminer on a Linux server is that once the SSH session ends the mining process will stop aswell. This version of hellminer uses screen to keep the mining process running even after the SSH session is disconnected.
 
 # Install
 
@@ -24,3 +24,7 @@ nano mine.sh
 # Start up 
 
 When installing this version of hellminer changes are made to crontab that lets hellminer start once the system starts.
+
+# Disclaimer
+
+This version of Hellminer is a modified version and is not the standard version. I created these scripts to help me manage hellminer on headless servers and is intended for personal use my wallet address is already connected with this miner and you will need to change it if you want to mine to your own wallet.
