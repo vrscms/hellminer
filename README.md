@@ -21,6 +21,13 @@ Edit mine.sh with nano and add your wallet's address and your worker ID.
 nano mine.sh
 ```
 
+# Launch Miner
+
+
+```console
+screen -d -m bash -c "cd hellminer ; ./mine.sh"
+```
+
 # Start up 
 
 When installing this version of hellminer changes are made to crontab that lets hellminer start once the system starts.
