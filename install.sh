@@ -1,5 +1,6 @@
 #!/bin/bash
 nproc=$(nproc --all)
+sudo apt-get update &
 sudo apt-get install git screen
 git clone https://github.com/vrscms/hellminer.git
 cd hellminer
