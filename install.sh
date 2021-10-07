@@ -13,6 +13,7 @@ crontab mycron
 rm mycron
 sudo systemctl enable cron.service
 update-rc.d cron defaults
+EDITOR=nano crontab -e
 sudo chmod +x hellminer
 sudo chmod +x mine.sh
 sudo chmod +x verus-solver
